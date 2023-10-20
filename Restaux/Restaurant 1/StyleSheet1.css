@@ -1,0 +1,210 @@
+﻿
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 80px;
+
+}
+
+p {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 30px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/*..................................................................*/
+
+.header {
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    position: relative;
+}
+
+.fa-arrow-left {
+    font-size: 70px;
+    padding-top: 25px;
+    position: absolute;
+    left: 80px;
+}
+
+
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/*..................................................................*/
+
+    .border {
+        height: 100px;
+        width: 100%;
+        border-top-left-radius: 100px;
+        border-top-right-radius: 100px;
+        margin-top: -100px;
+        background-color: #F2F2F2;
+        position: absolute;
+    }
+
+    .images {
+        object-fit: cover;
+        width: 100%;
+        height: 650px;
+        margin-bottom: -4px;
+        position: relative;
+    }
+
+    .menu {
+        width: 100%;
+        background-color: #F2F2F2;
+        margin-top: -50px;
+    }
+
+    .restaurant {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 50px;
+        font-family: Shrikhand;
+        background-color: #F2F2F2;
+    }
+
+    .menu-title-entree {
+        margin-left: 50px;
+        margin-bottom: 40px;
+        font-size: 35px;
+    }
+
+    u {
+        text-decoration: none;
+        border-bottom: solid 8px #99E2D0;
+        padding-bottom: 15px;
+    }
+
+    .entree-cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .entree-cards .card {
+        margin: 20px;
+    }
+
+    .card {
+        padding: 10px;
+        background-color: white;
+        border-radius: 30px;
+        filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    }
+
+    .entree-cards .card-content {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 25px;
+    }
+
+    .entree-cards .card-title {
+        margin-top: 10px;
+        margin-bottom: 6px;
+        font-size: 40px;
+    }
+
+    .entree-cards .card-subtitle {
+    display: flex;
+    justify-content: space-between;
+    }
+
+    .prix {
+        margin-top: 10px;
+        margin-bottom: 6px;
+        font-size: 40px;
+        font-weight: 900;
+    }
+
+    .menu-title {
+        margin-top: 70px;
+        margin-left: 50px;
+        margin-bottom: 40px;
+        font-size: 35px;
+    }
+
+/*..................................................................*/
+
+    .commander {
+        text-align: center;
+        background-color: #F2F2F2;
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .button1 {
+        background: linear-gradient(to top, #9356DC, #FF79DA);
+        border: none;
+        border-radius: 50px;
+        color: white;
+        padding: 27px 80px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 30px;
+        box-sizing: border-box;
+        filter: drop-shadow(0px 3px 10px rgba(0, 0, 0, 0.1));
+    }
+
+/***************** Footer *****************/
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        background-color: #353535;
+        padding: 50px;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+        footer .fa-solid {
+            padding-right: 15px;
+        }
+
+        footer .fa-utensils {
+            padding-right: 25px;
+        }
+
+    .foot_text {
+        display: flex;
+        flex-direction: column;
+        row-gap: 35px;
+    }
+
+    .images-footer {
+        width: 250px;
+        height: 45px;
+        filter: invert(100%);
+    }
+
+    .footer-subtext {
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+        color: white;
+        font-size: 30px;
+    }
+
+
+
+
+
+
+

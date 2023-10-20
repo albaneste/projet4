@@ -1,0 +1,61 @@
+﻿$myColor: red;
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+    color: #303030;
+}
+
+/*..................................................................*/
+
+.header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-shadow: 0 4px 0 0 #DDDDDD;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/*..................................................................*/
+
+.localisation {
+    background-color: #EDEDED;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    color: #303030;
+    margin-top: 4px;
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+fa-solid fa-location-dot {
+    color: #303030;
+}
+
+/*..................................................................*/
+
+.reservation {
+    text-align: center;
+}
+
+.button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid $myColor
+}
