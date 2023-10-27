@@ -21,7 +21,39 @@
         text-decoration: none;
     }
 
+
     /*..................................................................*/
+
+    .loader {
+        position: fixed;
+        background-color: #E4F1F8;
+        height: 100%;
+        width: 100%;
+        inset: 0;
+        z-index: 1;
+        opacity: 0.95;
+        animation: cssAnim 2s linear 0s forwards;
+    }
+
+    .fa-utensils {
+        position: absolute;
+        top: 40%;
+        left: 45%;
+        font-size: 100px;
+        opacity: 1;
+        color: white;
+        font-size: 200px;
+        animation: cssAnim 2s linear 0s forwards;
+    }
+
+    @keyframes cssAnim {
+        to {
+            visibility: hidden;
+        }
+    }
+
+    /*..................................................................*/
+
 
     .header {
         padding: 50px;
@@ -71,7 +103,6 @@
 
     .button1 {
         background: linear-gradient(to top, #9356DC, #FF79DA);
-        border: none;
         border-radius: 40px;
         color: white;
         padding: 24px 40px;
@@ -81,6 +112,10 @@
         font-size: 30px;
         box-sizing: border-box;
         filter: drop-shadow(0px 3px 10px rgba(0, 0, 0, 0.1));
+    }
+    
+    .reservation :hover.button1 {
+        filter: opacity(75%);
     }
 
     /*..................................................................*/
@@ -124,11 +159,28 @@
         font-size: 30px;
     }
 
+
     #icone1 {
         color: #7E7E7E;
     }
 
-    .button2 #icone1:hover {
+    a .button2:hover #icone1 {
+        color: #9356DC
+    }
+
+    #icone2 {
+        color: #7E7E7E;
+    }
+
+    a .button2:hover #icone2 {
+        color: #9356DC
+    }
+
+    #icone3 {
+        color: #7E7E7E;
+    }
+
+    a .button2:hover #icone3 {
         color: #9356DC
     }
 
@@ -213,6 +265,32 @@
 
     .card-txt {
         margin: 25px;
+        position: relative;
+    }
+
+    .coeur i {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        padding-top: 25px;
+        font-size: 55px;
+    }
+
+    .coeur-vide {
+        color: #353535;
+    }
+
+    .coeur-full {
+        opacity: 0;
+        transition-property: all;
+        transition-duration: 1s;
+    }
+
+    .coeur-full:hover {
+        opacity: 1;
+        color: transparent;
+        background-image: linear-gradient( #9356DC, #FF79DA);
+        -webkit-background-clip: text;
     }
 
 

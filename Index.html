@@ -16,6 +16,11 @@
 
 <html lang="fr" xmlns="http://www.w3.org/1999/xhtml">
 <body>
+
+    <div class="loader">
+        <i class="fa-solid fa-utensils fa-flip"></i>
+    </div>
+
     <div class="header">
         <img src="images/logo/ohmyfood@2x.svg" alt="logo ohmyfood" class="logo">
     </div>
@@ -44,13 +49,13 @@
         <a href="#">
             <div class="button2">
                 <div class="number"> 2 </div> 
-                <i class="fa-solid fa-list-ul" style="color: #7E7E7E;"></i> Composez votre menu
+                <i class="fa-solid fa-list-ul" id="icone2"></i> Composez votre menu
             </div>
         </a>
         <a href="#">
             <div class="button2">
                 <div class="number"> 3 </div>
-                <i class="fa-solid fa-store" style="color: #7E7E7E;"></i> Dégustez au restaurant
+                <i class="fa-solid fa-store" id="icone3"></i> Dégustez au restaurant
             </div>
         </a>
     </section>
@@ -67,22 +72,34 @@
                         <div class="card-content">
                             <div class="nouveau">Nouveau</div>
                             <div class="card-txt">
-                                <h3 class="card-title">La palette du goût</h3>
-                                <p class="card-subtitle">Ménilmontant</p>
+                                <div class="space-btw">
+                                    <h3 class="card-title">La palette du goût</h3>
+                                    <p class="card-subtitle">Ménilmontant</p>
+                                </div>
+                                <div class="coeur">
+                                    <i class="fa-regular fa-heart coeur-vide"> </i>
+                                    <i class="fa-solid fa-heart coeur-full"></i>
+                                </div>
                             </div>
                         </div>
                     </article>
                 </a>
                 <a href="#">
                     <article class="card">
-                            <img src="images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="image Hôtel Chez Amina" class="images">
-                            <div class="card-content">
-                                <div class="nouveau">Nouveau</div>
-                                <div class="card-txt">
+                        <img src="images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="image Hôtel Chez Amina" class="images">
+                        <div class="card-content">
+                            <div class="nouveau">Nouveau</div>
+                            <div class="card-txt">
+                                <div class="space-btw">
                                     <h3 class="card-title">La note enchantée</h3>
                                     <p class="card-subtitle">Charonne</p>
                                 </div>
+                                <div class="coeur">
+                                    <i class="fa-regular fa-heart coeur-vide"> </i>
+                                    <i class="fa-solid fa-heart coeur-full"></i>
+                                </div>
                             </div>
+                        </div>
                     </article>
                 </a>
                 <a href="#">
@@ -90,8 +107,14 @@
                         <img src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="image Hôtel Les mouettes" class="images">
                         <div class="card-content">
                             <div class="card-txt">
-                                <h3 class="card-title">À la française</h3>
-                                <p class="card-subtitle">Cité Rouge</p>
+                                <div class="space-btw">
+                                    <h3 class="card-title">À la française</h3>
+                                    <p class="card-subtitle">Cité Rouge</p>
+                                </div>
+                                <div class="coeur">
+                                    <i class="fa-regular fa-heart coeur-vide"> </i>
+                                    <i class="fa-solid fa-heart coeur-full"></i>
+                                </div>
                             </div>
                         </div>
                     </article>
@@ -101,8 +124,14 @@
                         <img src="images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="image Hôtel de la mer" class="images">
                         <div class="card-content">
                             <div class="card-txt">
-                                <h3 class="card-title">Le délice des sens</h3>
-                                <p class="card-subtitle">Folie-Méricourt</p>
+                                <div class="space-btw">
+                                    <h3 class="card-title">Le délice des sens</h3>
+                                    <p class="card-subtitle">Folie-Méricourt</p>
+                                </div>
+                                <div class="coeur">
+                                    <i class="fa-regular fa-heart coeur-vide"> </i>
+                                    <i class="fa-solid fa-heart coeur-full"></i>
+                                </div>
                             </div>
                         </div>
                     </article>
@@ -136,7 +165,7 @@
                     </a>
                 </div>
                 <div>
-                    <a href="#">
+                    <a href="mailto:ohmyfood@gmail.com">
                         Contact
                     </a>
                 </div>
