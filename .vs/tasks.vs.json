@@ -3,12 +3,12 @@
   "tasks": [
     {
       "taskLabel": "tâche-Index",
-      "appliesTo": "Index.html",
+      "appliesTo": "index.html",
       "type": "launch"
     },
     {
       "taskLabel": "tâche-Index",
-      "appliesTo": "Index.html",
+      "appliesTo": "index.html",
       "type": "launch"
     }
   ]
