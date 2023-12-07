@@ -1,9 +1,9 @@
-﻿$color_2: white;
-$color_3: #353535;
-$color_4: black;
-$color_5: #7E7E7E;
-$color_6: #9356DC;
-$color_7: #008766;
+﻿$color_1: white;
+$color_2: #353535;
+$color_3: black;
+$color_4: #7E7E7E;
+$color_5: #9356DC;
+$color_6: #008766;
 $font-family_1: 'Roboto', sans-serif;
 $background-color_1: #E4F1F8;
 $background-color_2: #EAEAEA;
@@ -44,15 +44,15 @@ a {
     .button2 {
         &:hover {
             #icone1 {
-                color: $color_6;
+                color: $color_5;
             }
 
             #icone2 {
-                color: $color_6;
+                color: $color_5;
             }
 
             #icone3 {
-                color: $color_6;
+                color: $color_5;
             }
         }
     }
@@ -75,7 +75,7 @@ a {
     left: 45%;
     font-size: 100px;
     opacity: 1;
-    color: $color_2;
+    color: $color_1;
     font-size: 200px;
     animation: cssAnim 2s linear 0s forwards;
 }
@@ -97,7 +97,7 @@ a {
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 30px;
-    color: $color_3;
+    color: $color_2;
     display: flex;
     justify-content: center;
     column-gap: 30px;
@@ -105,7 +105,7 @@ a {
 
 fa-solid {
     fa-location-dot {
-        color: $color_3;
+        color: $color_2;
     }
 }
 
@@ -121,14 +121,14 @@ fa-solid {
 .decouvrez {
     text-align: center;
     font-size: 28px;
-    color: $color_3;
+    color: $color_2;
     margin-bottom: 60px;
 }
 
 .button1 {
     background: linear-gradient(to top, #9356DC, #FF79DA);
     border-radius: 40px;
-    color: $color_2;
+    color: $color_1;
     padding: 24px 40px;
     text-align: center;
     text-decoration: none;
@@ -157,7 +157,7 @@ fa-solid {
     background: #F6F6F6;
     border: none;
     border-radius: 40px;
-    color: $color_4;
+    color: $color_3;
     padding: 60px 50px;
     margin-left: 40px;
     text-align: center;
@@ -179,20 +179,20 @@ fa-solid {
     border: none;
     border-radius: 80px;
     padding: 10px 20px;
-    color: $color_2;
+    color: $color_1;
     font-size: 30px;
 }
 
 #icone1 {
-    color: $color_5;
+    color: $color_4;
 }
 
 #icone2 {
-    color: $color_5;
+    color: $color_4;
 }
 
 #icone3 {
-    color: $color_5;
+    color: $color_4;
 }
 
 .card {
@@ -209,7 +209,7 @@ fa-solid {
     background: #99E2D0;
     border: none;
     padding: 12px 22px;
-    color: $color_7;
+    color: $color_6;
     font-size: 30px;
     border-radius: 5px;
     font-weight: bold;
@@ -285,7 +285,7 @@ fa-solid {
 }
 
 .coeur-vide {
-    color: $color_3;
+    color: $color_2;
 }
 
 .coeur-full {
@@ -334,7 +334,7 @@ footer {
     display: flex;
     flex-direction: column;
     row-gap: 15px;
-    color: $color_2;
+    color: $color_1;
     font-size: 30px;
 }
 
