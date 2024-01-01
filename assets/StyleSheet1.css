@@ -3,11 +3,13 @@
     margin-left: -30px;
     opacity: 0;
   }
+
   100% {
     margin-left: 20px;
     opacity: 1;
   }
 }
+
 body {
   font-family: "Roboto", sans-serif;
   margin: 0px;
@@ -72,20 +74,44 @@ main {
 
 .restaurant {
   display: flex;
-  justify-content: space-between;
-  font-family: Shrikhand;
+  font-family: "Shrikhand";
 }
+
 .restaurant h1 {
   font-size: 35px;
   margin-top: 10px;
   margin-bottom: 60px;
   padding-left: 30px;
+  margin-right: 20px;
 }
 
-.like {
+.coeur {
+  position: relative;
   font-size: 30px;
-  padding-right: 30px;
-  padding-top: 15px;
+  top: 20px;
+  margin-right: 40px;
+}
+
+.coeur i {
+  position: absolute;
+  font-size: 30px;
+}
+
+.coeur-vide {
+  color: #353535;
+}
+
+.coeur-full {
+  opacity: 0;
+  transition-property: all;
+  transition-duration: 1s;
+}
+
+.coeur-full:hover {
+  opacity: 1;
+  color: transparent;
+  background-image: linear-gradient(#9356DC, #FF79DA);
+  -webkit-background-clip: text;
 }
 
 .menu-title-entree {
@@ -105,13 +131,16 @@ u {
   flex-direction: column;
   justify-content: space-between;
 }
+
 .entree-cards .card {
   margin: 15px;
   overflow: hidden;
 }
+
 .entree-cards .card-content {
   display: flex;
 }
+
 .entree-cards .card-text {
   flex-grow: 1;
   margin-left: 30px;
@@ -160,6 +189,7 @@ u {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
 .card-text p {
   white-space: nowrap;
   overflow: hidden;
@@ -195,6 +225,7 @@ u {
   padding-top: 70px;
   padding-bottom: 70px;
 }
+
 .commander:hover.button1 {
   filter: opacity(75%);
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.3490196078);
@@ -222,9 +253,11 @@ footer {
   flex-direction: column;
   gap: 30px;
 }
+
 footer .fa-solid {
   padding-right: 15px;
 }
+
 footer .fa-utensils {
   padding-right: 25px;
 }
@@ -249,16 +282,19 @@ footer .fa-utensils {
   font-size: 25px;
 }
 
-@media (min-width: 960px) {
+@media (min-width: 768px) {
   .logo {
     width: 20%;
   }
+
   .fa-arrow-left {
     font-size: 30px;
   }
+
   .header {
     padding: 20px;
   }
+
   .menu {
     width: 80%;
     display: block;
@@ -267,63 +303,83 @@ footer .fa-utensils {
     padding-top: 40px;
     margin-top: -45px;
   }
+
   .images {
     height: 400px;
   }
+
   .restaurant {
     justify-content: center;
     gap: 20px;
   }
+
   .restaurant h1 {
     font-size: 27px;
     margin-bottom: 40px;
   }
-  .like {
-    font-size: 22px;
-    padding-top: 15px;
+
+  .coeur {
+    position: relative;
   }
+
+  .coeur i {
+    position: absolute;
+    font-size: 22px;
+
+  }
+
   .menu-title-entree {
     font-size: 20px;
     margin-left: 100px;
     margin-bottom: 15px;
   }
+
   .menu-title {
     font-size: 20px;
     margin-left: 100px;
     margin-bottom: 15px;
     margin-top: 30px;
   }
+
   u {
     border-bottom: solid 4px #99E2D0;
     padding-bottom: 10px;
   }
+
   .card {
     border-radius: 18px;
   }
+
   .entree-cards .card {
     margin-left: 100px;
     margin-right: 100px;
   }
+
   .entree-cards .card-text {
     margin-left: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 18px;
   }
+
   .card-text h3 {
     margin-bottom: 0px;
   }
+
   .prix {
     font-size: 18px;
     margin: 15px;
     margin-right: 30px;
   }
+
   .vert {
     font-size: 30px;
   }
+
   .card-content:hover .vert {
     width: 80px;
   }
+
   .commander {
     width: 80%;
     display: block;
@@ -331,21 +387,26 @@ footer .fa-utensils {
     padding-top: 30px;
     padding-bottom: 40px;
   }
+
   .button1 {
     padding: 15px 40px;
     font-size: 18px;
   }
+
   footer {
     padding-bottom: 20px;
   }
+
   .foot_text {
     flex-direction: row-reverse;
   }
+
   .footer-subtext {
     flex-direction: row;
     gap: 15px;
     font-size: 15px;
   }
+
   .images-footer {
     width: 100px;
     height: 20px;

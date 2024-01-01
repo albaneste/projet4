@@ -4,6 +4,7 @@
     visibility: hidden;
   }
 }
+
 /*..................................................................*/
 body {
   font-family: "Roboto", sans-serif;
@@ -25,12 +26,15 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
 a .button2:hover #icone1 {
   color: #9356DC;
 }
+
 a .button2:hover #icone2 {
   color: #9356DC;
 }
+
 a .button2:hover #icone3 {
   color: #9356DC;
 }
@@ -114,6 +118,7 @@ fa-solid fa-location-dot {
   filter: opacity(100%);
   transition: 0.3s;
 }
+
 .button1:hover {
   filter: opacity(75%);
 }
@@ -207,6 +212,7 @@ fa-solid fa-location-dot {
   align-items: center;
   margin-left: 50px;
 }
+
 .restaurants-title h1 {
   margin-bottom: -10px;
 }
@@ -216,9 +222,11 @@ fa-solid fa-location-dot {
   flex-direction: column;
   row-gap: 30px;
 }
+
 .restaurants-cards .card {
   margin: 50px;
 }
+
 .restaurants-cards img {
   border-top-right-radius: 30px;
   border-top-left-radius: 30px;
@@ -226,12 +234,14 @@ fa-solid fa-location-dot {
   height: 250px;
   object-fit: cover;
 }
+
 .restaurants-cards .card-content {
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 5px;
   position: relative;
 }
+
 .restaurants-cards .card-title {
   margin-top: 10px;
   margin-bottom: 6px;
@@ -241,6 +251,10 @@ fa-solid fa-location-dot {
 .card-txt {
   margin: 15px;
   position: relative;
+}
+
+.space-btw {
+  margin-right: 80px;
 }
 
 .coeur i {
@@ -260,6 +274,7 @@ fa-solid fa-location-dot {
   transition-property: all;
   transition-duration: 1s;
 }
+
 .coeur-full:hover {
   opacity: 1;
   color: transparent;
@@ -275,9 +290,11 @@ footer {
   flex-direction: column;
   gap: 30px;
 }
+
 footer .fa-solid {
   padding-right: 15px;
 }
+
 footer .fa-utensils {
   padding-right: 25px;
 }
@@ -306,44 +323,54 @@ footer .fa-utensils {
   .logo {
     width: 20%;
   }
+
   .header {
     padding: 20px;
   }
+
   .localisation {
     padding-top: 5px;
     padding-bottom: 10px;
     font-size: 15px;
     column-gap: 15px;
   }
+
   h1 {
     font-size: 30px;
     font-weight: bold;
   }
+
   .reservation {
     padding-top: 10px;
     padding-bottom: 60px;
   }
+
   .decouvrez {
     font-size: 15px;
     margin-bottom: 35px;
   }
+
   .button1 {
     padding: 15px 25px;
     font-size: 18px;
   }
+
   .fonctionnement {
     padding: 0;
     margin: 30px;
   }
+
   .fonctionnement h1 {
     font-size: 25px;
     margin-left: 100px;
     margin-top: 50px;
   }
+
   .grp-btn2 {
     display: flex;
     justify-content: space-evenly;
   }
+
   .button2 {
     font-size: 15px;
     padding: 20px 25px;
@@ -353,22 +380,27 @@ footer .fa-utensils {
     gap: 20px;
     border-radius: 20px;
   }
+
   .number {
     top: 15px;
     padding: 5px 10px;
     font-size: 15px;
     left: -20px;
   }
+
   .restaurants {
     padding-top: 20px;
     padding-bottom: 40px;
   }
+
   .restaurants h1 {
     font-size: 25px;
   }
+
   .restaurants-title {
     margin-left: 100px;
   }
+
   .restaurants-cards {
     flex-wrap: wrap;
     flex-direction: row;
@@ -376,50 +408,62 @@ footer .fa-utensils {
     row-gap: 0px;
     justify-content: center;
   }
+
   .restaurants-cards .card {
     margin-left: 35px;
     margin-right: 0;
     margin-bottom: 0;
   }
+
   .restaurants-cards a {
     width: 45%;
   }
+
   .restaurants-cards img {
     width: 100%;
     height: 150px;
   }
+
   .restaurants-cards .card-title {
     margin-top: 0;
     margin-bottom: 5px;
     font-size: 20px;
   }
+
   p {
     font-size: 15px;
   }
+
   .coeur i {
     top: -12px;
     font-size: 25px;
   }
+
   .card-txt {
     margin: 5px;
     margin-left: 10px;
   }
+
   .nouveau {
     top: -130px;
     right: 40px;
     font-size: 20px;
   }
+
   footer {
     padding-bottom: 20px;
   }
+
   .foot_text {
     flex-direction: row-reverse;
   }
+
   .footer-subtext {
     flex-direction: row;
     gap: 15px;
     font-size: 15px;
   }
+
   .images-footer {
     width: 100px;
     height: 20px;

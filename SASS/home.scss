@@ -1,4 +1,4 @@
-﻿@import "var.scss";
+﻿@import 'colorvar';
 
 /*..................................................................*/
 @keyframes cssAnim {
@@ -32,15 +32,15 @@ a {
     .button2 {
         &:hover {
             #icone1 {
-                color: $color_5;
+                color: $iconehover-color;
             }
 
             #icone2 {
-                color: $color_5;
+                color: $iconehover-color;
             }
 
             #icone3 {
-                color: $color_5;
+                color: $iconehover-color;
             }
         }
     }
@@ -48,7 +48,7 @@ a {
 
 .loader {
     position: fixed;
-    background-color: $background-color_1;
+    background-color: $loader-bg-color;
     height: 100%;
     width: 100%;
     inset: 0;
@@ -63,7 +63,7 @@ a {
     left: 45%;
     font-size: 100px;
     opacity: 1;
-    color: $color_1;
+    color: $white-color;
     font-size: 200px;
     animation: cssAnim 2s linear 0s forwards;
 }
@@ -81,11 +81,11 @@ a {
 
 .localisation {
     box-shadow: 0 -5px 0 0 rgba(0, 0, 0, 0.1);
-    background-color: $background-color_2;
+    background-color: $localisation-bg-color;
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 30px;
-    color: $color_2;
+    color: $subtitle-color;
     display: flex;
     justify-content: center;
     column-gap: 30px;
@@ -93,13 +93,13 @@ a {
 
 fa-solid {
     fa-location-dot {
-        color: $color_2;
+        color: $subtitle-color;
     }
 }
 
 .reservation {
     text-align: center;
-    background-color: $background-color_3;
+    background-color: $reservation-bg-color;
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 30px;
@@ -109,14 +109,14 @@ fa-solid {
 .decouvrez {
     text-align: center;
     font-size: 28px;
-    color: $color_2;
+    color: $subtitle-color;
     margin-bottom: 60px;
 }
 
 .button1 {
     background: linear-gradient(to top, #9356DC, #FF79DA);
     border-radius: 40px;
-    color: $color_1;
+    color: $white-color;
     padding: 24px 40px;
     text-align: center;
     text-decoration: none;
@@ -167,24 +167,24 @@ fa-solid {
     border: none;
     border-radius: 80px;
     padding: 10px 20px;
-    color: $color_1;
+    color: $white-color;
     font-size: 30px;
 }
 
 #icone1 {
-    color: $color_4;
+    color: $icone-color;
 }
 
 #icone2 {
-    color: $color_4;
+    color: $icone-color;
 }
 
 #icone3 {
-    color: $color_4;
+    color: $icone-color;
 }
 
 .card {
-    background-color: $background-color_4;
+    background-color: $card-bg-color;
     border-radius: 30px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 }
@@ -197,7 +197,7 @@ fa-solid {
     background: #99E2D0;
     border: none;
     padding: 12px 22px;
-    color: $color_6;
+    color: $nouveau-color;
     font-size: 30px;
     border-radius: 5px;
     font-weight: bold;
@@ -211,7 +211,7 @@ fa-solid {
 .restaurants {
     padding-top: 70px;
     width: 100%;
-    background-color: $background-color_5;
+    background-color: $restaurant-bg-color;
     padding-bottom: 70px;
 }
 
@@ -273,7 +273,7 @@ fa-solid {
 }
 
 .coeur-vide {
-    color: $color_2;
+    color: $subtitle-color;
 }
 
 .coeur-full {
@@ -292,7 +292,7 @@ fa-solid {
 footer {
     display: flex;
     justify-content: space-between;
-    background-color: $background-color_6;
+    background-color: $footer-bg-color;
     padding: 50px;
     flex-direction: column;
     gap: 30px;
@@ -322,7 +322,7 @@ footer {
     display: flex;
     flex-direction: column;
     row-gap: 15px;
-    color: $color_1;
+    color: $white-color;
     font-size: 30px;
 }
 
