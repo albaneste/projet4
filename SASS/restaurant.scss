@@ -1,7 +1,5 @@
 $color_1: inherit;
 $color_2: white;
-$font-family_1: 'Roboto', sans-serif;
-$font-family_2: Shrikhand;
 $background-color_1: #F2F2F2;
 $background-color_2: white;
 $background-color_3: #99E2D0;
@@ -21,7 +19,7 @@ $background-color_4: #353535;
 }
 
 body {
-    font-family: $font-family_1;
+    font-family: 'Roboto', sans-serif;
     margin: 0px;
 }
 
@@ -85,7 +83,7 @@ main {
 .restaurant {
     display: flex;
     justify-content: space-between;
-    font-family: $font-family_2;
+    font-family: 'Shrikhand';
 
     h1 {
         font-size: 35px;
