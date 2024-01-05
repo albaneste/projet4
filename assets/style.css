@@ -12,14 +12,14 @@ body {
 }
 
 h1 {
-  font-size: 34px;
+  font-size: 25px;
   font-weight: bold;
 }
 
 p {
   margin-top: 8px;
   margin-bottom: 8px;
-  font-size: 28px;
+  font-size: 20px;
 }
 
 a {
@@ -77,7 +77,7 @@ a .button2:hover #icone3 {
   background-color: #EAEAEA;
   padding-top: 20px;
   padding-bottom: 20px;
-  font-size: 30px;
+  font-size: 25px;
   color: #353535;
   display: flex;
   justify-content: center;
@@ -99,7 +99,7 @@ fa-solid fa-location-dot {
 
 .decouvrez {
   text-align: center;
-  font-size: 28px;
+  font-size: 20px;
   color: #353535;
   margin-bottom: 60px;
 }
@@ -112,7 +112,7 @@ fa-solid fa-location-dot {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 28px;
+  font-size: 18px;
   box-sizing: border-box;
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
   filter: opacity(100%);
@@ -126,25 +126,25 @@ fa-solid fa-location-dot {
 .fonctionnement {
   margin: 80px 50px;
   padding-top: 20px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 .button2 {
   margin-top: 80px;
-  font-size: 28px;
+  font-size: 18px;
   font-weight: bold;
   background: #F6F6F6;
   border: none;
   border-radius: 40px;
   color: black;
-  padding: 60px 50px;
+  padding: 40px 20px;
   margin-left: 40px;
   text-align: center;
   text-decoration: none;
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
-  gap: 40px;
+  gap: 15px;
   box-sizing: border-box;
   filter: drop-shadow(0px 3px 10px rgba(0, 0, 0, 0.1));
   position: relative;
@@ -152,14 +152,19 @@ fa-solid fa-location-dot {
 
 .number {
   position: absolute;
-  top: 50px;
-  left: -30px;
+  top: 30px;
+  left: -25px;
   background: #9356DC;
   border: none;
   border-radius: 80px;
-  padding: 10px 20px;
+  padding: 10px 15px;
   color: white;
-  font-size: 30px;
+  font-size: 15px;
+}
+
+.grp-btn2 {
+  margin-left: -30px;
+
 }
 
 #icone1 {
@@ -183,13 +188,13 @@ fa-solid fa-location-dot {
 .nouveau {
   margin: -15px;
   position: absolute;
-  top: -230px;
-  right: 55px;
+  top: -110px;
+  right: 30px;
   background: #99E2D0;
   border: none;
-  padding: 12px 22px;
+  padding: 10px 20px;
   color: #008766;
-  font-size: 30px;
+  font-size: 20px;
   border-radius: 5px;
   font-weight: bold;
 }
@@ -220,7 +225,7 @@ fa-solid fa-location-dot {
 .restaurants-cards {
   display: flex;
   flex-direction: column;
-  row-gap: 30px;
+  row-gap: 25px;
 }
 
 .restaurants-cards .card {
@@ -231,7 +236,7 @@ fa-solid fa-location-dot {
   border-top-right-radius: 30px;
   border-top-left-radius: 30px;
   width: 100%;
-  height: 250px;
+  height: 130px;
   object-fit: cover;
 }
 
@@ -245,24 +250,25 @@ fa-solid fa-location-dot {
 .restaurants-cards .card-title {
   margin-top: 10px;
   margin-bottom: 6px;
-  font-size: 32px;
+  font-size: 20px;
 }
 
 .card-txt {
-  margin: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
   position: relative;
 }
 
 .space-btw {
-  margin-right: 80px;
+  margin-right: 50px;
 }
 
 .coeur i {
   position: absolute;
   top: -10px;
-  right: 25px;
+  right: 10px;
   padding-top: 25px;
-  font-size: 50px;
+  font-size: 30px;
 }
 
 .coeur-vide {
@@ -306,8 +312,8 @@ footer .fa-utensils {
 }
 
 .images-footer {
-  width: 250px;
-  height: 45px;
+  width: 150px;
+  height: 35px;
   filter: invert(100%);
 }
 
@@ -316,7 +322,7 @@ footer .fa-utensils {
   flex-direction: column;
   row-gap: 15px;
   color: white;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 @media (min-width: 768px) {
